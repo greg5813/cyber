@@ -24,8 +24,11 @@
 \subparagraph{Modèle}
 \subparagraph{Simulation}
 \subparagraph{Analyse}
-Basique
-var l
+var l V0 alpha0
+
+modifie
+l'amplitude (à determiner)
+la période (~ inversement proportionel)
 
 \clearpage
 \section{TP2 : Modèle continu structuré}
@@ -33,15 +36,19 @@ var l
 \subparagraph{Modèle}
 \subparagraph{Simulation}
 \subparagraph{Analyse}
-Structuré
-var l
+var l V0 alpha0
+
+verifier obtient même résultats que précédement
 
 \subsection{Pendule inversé avec contrôleur par retour d'état}
 \subparagraph{Modèle}
 \subparagraph{Simulation}
 \subparagraph{Analyse}
-Force et perturbation
-var l, k1, k2, perturbation
+a partir de ce point l = 0.07, alpha0 = 0, v0 = 0
+perturbation a 20\%, periode 1s et 1 rd/s
+var k1, k2
+
+étudier stabilité controle
 
 \clearpage
 \section{TP4 : Modèle continu et discret du robot Lego}
@@ -49,15 +56,19 @@ var l, k1, k2, perturbation
 \subparagraph{Modèle}
 \subparagraph{Simulation}
 \subparagraph{Analyse}
-Modélisation, synthèse, estimation
-var l, k1, k2, perturbation
+
+var k1, k2 k3 k4 trouvé par calcul
+analyse estimateur
+
+CODE A FAIRE
 
 \subsection{Modèle discret}
 \subparagraph{Modèle}
 \subparagraph{Simulation}
 \subparagraph{Analyse}
+
 dito
-var l, k1, k2, perturbation
+
 
 \clearpage
 \section{TP5-6 : Application embarquée sur le robot Lego}
